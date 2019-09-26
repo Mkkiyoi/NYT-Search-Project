@@ -9,3 +9,11 @@ $.ajax({
 }).then(function(response){
    console.log(response)
 });
+
+
+// When #submit-button is clicked, return searchTerm
+$("#submit-button").on("click",function(e){
+   e.preventDefault();
+   var searchTerm = $("#search-term").val().trim();
+   console.log (searchTerm);
+});

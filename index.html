@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewYorkTimesSearch</title>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>New York Times Search</h1>
+    </div>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="search-term">Search Term:</label>
+                <input type="search" class="form-control" id="search-term" aria-describedby="emailHelp"
+                    placeholder="Type your search here">
+            </div>
+            <div class="form-group">
+                <label for="number-of-records">Number of Records to Retrieve:</label>
+                <input class="form-control" id="number-of-records" placeholder="Give me a number!">
+            </div>
+            <div class="form-group">
+                <label for="start-year">Start Year (Optional)</label>
+                <input class="form-control" id="start-year" placeholder="Start Year">
+            </div>
+            <div class="form-group">
+                <label for="end-year">End Year (Optional)</label>
+                <input class="form-control" id="end-year" placeholder="End Year">
+            </div>
+
+
+            <button type="submit" class="btn btn-primary submit-button">Submit</button>
+            <button class="btn btn-primary clear-button">Clear</button>
+
+        </form>
+    </div>
+    <script type="text/javascript" src="assets/javascript/script.js">
+    </script>
+</body>
+
+</html>
